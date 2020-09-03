@@ -1,0 +1,34 @@
+#board td {
+  border: 2px solid #333;
+  height:100px;
+  width:100px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: arial;
+  font-size:70px;
+  cursor:pointer;
+  box-sizing: border-box;
+}
+#board {
+  border-collapse: collapse;
+  margin:auto;
+  border-style: hidden;
+}
+#canvas {
+  text-align: center;
+  margin:auto;
+}
+.endgame {
+  display:none;
+  position: absolute;
+  top:70px;
+  left:50%;
+  margin-left: -100px;
+  width:200px;
+  padding-top:50px;
+  padding-bottom:50px;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+  background: RGBA(60, 60, 60, 0.8);
+}
